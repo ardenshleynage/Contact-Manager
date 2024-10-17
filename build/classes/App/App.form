@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Gestionnaire de contacts"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="0" green="cc" red="cc" type="rgb"/>
+    </Property>
+    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="0" green="0" red="0" type="rgb"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="33" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="223" max="-2" attributes="0"/>
+                  <Component id="ExitApp" min="-2" pref="81" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="218" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="menu" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="269" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="list_contacts_block" min="-2" max="-2" attributes="0"/>
+                              <Component id="mod_contacts" min="-2" max="-2" attributes="0"/>
+                              <Component id="add_contacts" min="-2" max="-2" attributes="0"/>
+                              <Component id="del_contacts" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="block_contacts" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="list_contacts" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="search_contacts" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="allow_contacts" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="144" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="menu" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="add_contacts" linkSize="1" min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="mod_contacts" linkSize="1" min="-2" pref="30" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="del_contacts" linkSize="1" min="-2" pref="30" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="allow_contacts" min="-2" pref="30" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="block_contacts" linkSize="1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="search_contacts" linkSize="1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="list_contacts" linkSize="1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="list_contacts_block" linkSize="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace pref="11" max="32767" attributes="0"/>
+                          <Component id="ExitApp" min="-2" pref="38" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="menu">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Black" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Menu"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="3" left="0" right="0" top="0">
+                  <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="add_contacts">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Black" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1- Ajoutez un nouveau contact"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="add_contacts.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));&#xa;add_contacts.addMouseListener(new MouseAdapter() {&#xa;            @Override&#xa;            public void mouseClicked(MouseEvent e) {&#xa;                handleChoice(1);&#xa;            }&#xa;   @Override&#xa;            public void mouseEntered(MouseEvent e) {&#xa;                add_contacts.setForeground(Color.BLACK);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseExited(MouseEvent e) {&#xa;                add_contacts.setForeground(Color.WHITE);&#xa;            }&#xa;        });"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="18"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mod_contacts">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Black" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="2- Modifier un contact"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mod_contacts.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));&#xa;        mod_contacts.addMouseListener(new MouseAdapter() {&#xa;            @Override&#xa;            public void mouseClicked(MouseEvent e) {&#xa;                handleChoice(2);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseEntered(MouseEvent e) {&#xa;                mod_contacts.setForeground(Color.BLACK);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseExited(MouseEvent e) {&#xa;                mod_contacts.setForeground(Color.WHITE);&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="del_contacts">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Black" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="3- Supprimer un contact"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="del_contacts.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));&#xa;        del_contacts.addMouseListener(new MouseAdapter() {&#xa;            @Override&#xa;            public void mouseClicked(MouseEvent e) {&#xa;                handleChoice(3);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseEntered(MouseEvent e) {&#xa;                del_contacts.setForeground(Color.BLACK);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseExited(MouseEvent e) {&#xa;                del_contacts.setForeground(Color.WHITE);&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="block_contacts">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Black" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="5- Bloquer un contact"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="block_contacts.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));&#xa;        block_contacts.addMouseListener(new MouseAdapter() {&#xa;            @Override&#xa;            public void mouseClicked(MouseEvent e) {&#xa;                handleChoice(5);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseEntered(MouseEvent e) {&#xa;                block_contacts.setForeground(Color.BLACK);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseExited(MouseEvent e) {&#xa;                block_contacts.setForeground(Color.WHITE);&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="search_contacts">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Black" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="6- Rechercher un contact"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="search_contacts.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));&#xa;        search_contacts.addMouseListener(new MouseAdapter() {&#xa;            @Override&#xa;            public void mouseClicked(MouseEvent e) {&#xa;                handleChoice(6);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseEntered(MouseEvent e) {&#xa;                search_contacts.setForeground(Color.BLACK);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseExited(MouseEvent e) {&#xa;                search_contacts.setForeground(Color.WHITE);&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="list_contacts">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Black" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="7- Liste des contacts (autoriser) "/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="list_contacts.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));&#xa;        list_contacts.addMouseListener(new MouseAdapter() {&#xa;            @Override&#xa;            public void mouseClicked(MouseEvent e) {&#xa;                handleChoice(7);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseEntered(MouseEvent e) {&#xa;                list_contacts.setForeground(Color.BLACK);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseExited(MouseEvent e) {&#xa;                list_contacts.setForeground(Color.WHITE);&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Black" size="14" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ExitApp">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Black" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Quittez"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[78, 33]"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[78, 33]"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ExitAppActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="ExitApp.addMouseListener(new MouseAdapter() {&#xa;            @Override&#xa;            public void mouseEntered(MouseEvent e) {&#xa;                ExitApp.setBackground(Color.WHITE);&#xa;                ExitApp.setForeground(Color.BLACK);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseExited(MouseEvent e) {&#xa;                ExitApp.setBackground(Color.BLACK);&#xa;                ExitApp.setForeground(Color.WHITE);&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="list_contacts_block">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Black" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="8- Liste des contacts (bloquer) "/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="list_contacts_block.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));&#xa;        list_contacts_block.addMouseListener(new MouseAdapter() {&#xa;            @Override&#xa;            public void mouseClicked(MouseEvent e) {&#xa;                handleChoice(8);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseEntered(MouseEvent e) {&#xa;                list_contacts_block.setForeground(Color.BLACK);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseExited(MouseEvent e) {&#xa;                list_contacts_block.setForeground(Color.WHITE);&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="allow_contacts">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Black" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="4- Autoriser un contact"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="allow_contacts.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));&#xa;        allow_contacts.addMouseListener(new MouseAdapter() {&#xa;            @Override&#xa;            public void mouseClicked(MouseEvent e) {&#xa;                handleChoice(4);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseEntered(MouseEvent e) {&#xa;                allow_contacts.setForeground(Color.BLACK);&#xa;            }&#xa;&#xa;            @Override&#xa;            public void mouseExited(MouseEvent e) {&#xa;                allow_contacts.setForeground(Color.WHITE);&#xa;            }&#xa;        });"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
